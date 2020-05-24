@@ -1,0 +1,13 @@
+.buttonGoBack {
+  border-radius: 5px;
+  outline: none;
+  border: 0.5px solid rgb(221, 220, 220);
+  background-color: white;
+  padding: 5px;
+  width: 80px;
+  font-size: 14px;
+}
+
+.buttonGoBack::before {
+  content: "\2190";
+}

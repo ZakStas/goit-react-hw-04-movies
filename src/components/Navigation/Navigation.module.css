@@ -1,0 +1,25 @@
+.navLinks_List {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  margin: 0 0 4px;
+  padding-left: 40px;
+  height: 60px;
+  box-shadow: 0 4px 2px -2px #d3d3d3;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.navLinks_List_Item {
+  padding-right: 20px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: black;
+}
+
+.active_navLink {
+  color: palevioletred;
+}
